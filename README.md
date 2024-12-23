@@ -12,7 +12,6 @@ Este projeto é uma página web simples e responsiva criada com HTML e CSS. A p�
 ## Tecnologias Utilizadas
 
 - HTML5
-- CSS3
 
 ## Como Usar
 
