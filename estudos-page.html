@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Página de Estudos - Rafael da Silva Pulcinelli</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6f7ff; /* Azul claro */
+  margin: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #00B89F; /* Verde */
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Criação das colunas */
+nav {
+  float: left;
+  width: 30%;
+  background: #cceeff; /* Azul claro */
+  padding: 20px;
+}
+
+/* Estilo da lista no menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0066cc; /* Azul escuro */
+  font-weight: bold;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1; /* Fundo claro */
+}
+
+/* Limpar os floats após as colunas */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #3399ff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Layout responsivo */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Guia de Estudos - Rafael da Silva Pulcinelli</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#como-estudar-melhor">Como Estudar Melhor</a></li>
+      <li><a href="#como-facilitar-estudo">Como Facilitar o Estudo</a></li>
+      <li><a href="#minhas-redes-sociais">Minhas Redes Sociais</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 id="como-estudar-melhor">Como Estudar Melhor</h1>
+    <p>Baseado no livro <strong>“Aprendendo a Aprender”</strong> de Barbara Oakley, aprenda técnicas como:</p>
+    <ul>
+      <li>Evitar leitura passiva e praticar ativamente.</li>
+      <li>Revisar periodicamente o conteúdo estudado.</li>
+      <li>Explicar o que aprendeu para outra pessoa.</li>
+      <li>Utilizar pausas estratégicas para aumentar a concentração.</li>
+    </ul>
+
+    <h1 id="como-facilitar-estudo">Como Facilitar o Estudo</h1>
+    <p>Baseado no livro <strong>“Hábitos Atômicos”</strong>, siga estas dicas:</p>
+    <ul>
+      <li>Organize seu ambiente de estudo para minimizar distrações.</li>
+      <li>Defina horários fixos para estudar, priorizando os momentos de maior atenção (geralmente pela manhã).</li>
+      <li>Use ferramentas como agendas e aplicativos para manter-se organizado.</li>
+    </ul>
+
+    <h1 id="minhas-redes-sociais">Minhas Redes Sociais</h1>
+    <p>Me siga no <a href="https://www.instagram.com/rafael.pulcinelli/" target="_blank">Instagram</a> para acompanhar dicas sobre estudos, desenvolvimento pessoal e minha jornada no mundo digital.</p>
+    <p><em>"🎓 Transformando aprendizado em evolução."</em></p>
+
+    <img src="https://www.navega.art.br/cdn/shop/articles/tempo_de_estudo_650x.jpg?v=1638319386" alt="Tempo de Estudo" style="width:100%; margin-top:20px;">
+  </article>
+</section>
+
+<footer>
+  <p>Criado por Rafael da Silva Pulcinelli - 2024</p>
+</footer>
+
+</body>
+</html>
