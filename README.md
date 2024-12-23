@@ -16,6 +16,6 @@ Este projeto é uma página web simples e responsiva criada com HTML e CSS. A p�
 
 ## Como Usar
 
-1. Clone este repositório:
+1. Acesse a página na web:
    ```bash
-   git clone https://github.com/seu-usuario/pagina-estudos.git
+   https://rafaelpulcinelli.github.io/estudos-page.html
